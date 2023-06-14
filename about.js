@@ -9,8 +9,8 @@ function handleSubmit(evt) {
 }
 
 
-let form = document.querySelector('#contact');
+// let form = document.querySelector('#contact');
 
-let form_1 = document.querySelector('#submit');
+let submitBtn = document.querySelector('#submit');
 
-form.addEventListener('submit', handleSubmit);
+submitBtn.addEventListener('submit', handleSubmit);
